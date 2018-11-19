@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+ 
 body {
     background-image: linear-gradient(#42287C, #714091);
     color: white;
@@ -92,11 +96,25 @@ body {
 
 .project-details-description {
     transition: all 0.5s ease;
-
     text-align: center;
     background-size: 100% 150px;
     background-repeat: no-repeat;
     background-image: url("../imgs/splat.png");
+}
+
+.project-details-description h1 {
+    font-size: 3vmax;
+}
+.project-details-description h2 {
+    font-size: 2vmax;
+}
+
+.project-details-description h3 {
+    font-size: 1.8vmax;
+}
+.project-details-description p {
+    font-size: 1.3vmax;
+    text-align: justify;
 }
 
 
