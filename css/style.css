@@ -2,10 +2,12 @@ html {
     scroll-behavior: smooth;
 }
  
-body {
-    background-image: linear-gradient(#42287C, #714091);
+body { 
+    /* background-image: linear-gradient(#42287C, #714091); */
+    background-image: url("../imgs/bg.jpg"); 
     color: white;
     padding-top: 80px;
+    background-size: cover;
 }
 
 #header {
