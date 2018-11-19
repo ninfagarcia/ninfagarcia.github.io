@@ -116,8 +116,7 @@ body {
     transition: all .3s ease;
 }
 .secondary-project .secondary-project-details h2{
-    font-size: 3.5vmax;
-    font-family: 'Great Vibes', cursive;
+    font-size: 3vmax;
 }
 .secondary-project .secondary-project-details p{
     font-size: 1.3vmax;
