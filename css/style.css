@@ -72,6 +72,13 @@ body {
 
 .project{
     cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.project:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .project .project-preview{
