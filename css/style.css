@@ -87,16 +87,17 @@ body {
 }
 
 .project-details {
-    padding: 10px;
+    padding: 7px 0;
 }
 
 .project-details img {
     padding: 5px;
 }
 
-.project-details-description {
+.project-details .project-details-description {
     transition: all 0.5s ease;
     text-align: center;
+    padding: 20px;
     background-size: 100% 150px;
     background-repeat: no-repeat;
     background-image: url("../imgs/splat.png");
