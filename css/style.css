@@ -118,6 +118,13 @@ body {
 .project-details img {
     padding: 5px;
 }
+.behance {
+    float: right;
+}
+
+.behance img {
+    width: 120px;
+}
 
 .project-details .project-details-description {
     transition: all 0.5s ease;
