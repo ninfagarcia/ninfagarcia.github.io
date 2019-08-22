@@ -10,6 +10,23 @@ body {
     background-size: cover;
 }
 
+.btn-primary {
+    border-radius: 6.25rem;
+    color: #fff;
+    background-color: #25a1a8;
+    border-color: #25a1a8;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #007a7a;
+    border-color: #007a7a;
+}
+
+.spacer {
+    height: 50px;
+}
+
 #header {
     text-align: center;
 }
@@ -35,15 +52,9 @@ body {
     text-align: center;
     color: white;
 }
-#info h2 {
-    font-family: 'Great Vibes', cursive;
-}
 
 #tools {
     text-align: center;
-}
-#tools h1 {
-    font-family: 'Great Vibes', cursive;
 }
 #tools .tools-container {
     padding: 15px 25%;
@@ -71,12 +82,9 @@ body {
 }
 
 #bio .bio-detail {
-    margin: auto;
-    font-size: 9pt;
-    padding: 0 40px;
+    text-align: center;
+    padding: 120px 515px;
 }
-
-
 
 .project{
     cursor: pointer;
@@ -135,8 +143,6 @@ body {
     font-size: 1.3vmax;
     text-align: justify;
 }
-
-
 
 .secondary-project {
     cursor: pointer;
