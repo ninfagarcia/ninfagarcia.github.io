@@ -121,11 +121,14 @@ body {
 
 .project-details .project-details-description {
     transition: all 0.5s ease;
-    text-align: center;
     padding: 10px;
     background-size: 100% 150px;
     background-repeat: no-repeat;
     background-image: url("../imgs/splat.png");
+}
+
+.project-details-decription-inner {
+    padding: 120px 35px;
 }
 
 .project-details-description h1 {
